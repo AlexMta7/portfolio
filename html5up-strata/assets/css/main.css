@@ -2621,7 +2621,7 @@ input, select, textarea {
 			-webkit-flex-grow: 1;
 			-ms-flex-grow: 1;
 			flex-grow: 1;
-			margin: 0 0 2em 0;
+			margin: -2em 0 2em 0;
 		}
 
 		#header strong, #header b {
@@ -2640,22 +2640,26 @@ input, select, textarea {
 		}
 
 		#header .image.avatar {
-			margin: 0 0 1em 0;
-			width: 6.25em;
+			margin: 25px 0 1em 0;
+			width: 10em;	
 		}
 
 /* Footer */
+
+	#footer {
+		margin-bottom: -7em;
+	}
 
 	#footer .icons {
 		margin: 1em 0 0 0;
 	}
 
 		#footer .icons a {
-			color: rgba(17, 207, 255, 0.4);
+			color: rgba(17, 207, 255, 0.541);
 		}
 
 	#footer .copyright {
-		color: rgba(255, 255, 255, 0.4);
+		color: rgba(135, 247, 7, 0.76);
 		font-size: 0.8em;
 		list-style: none;
 		margin: 1em 0 0 0;
